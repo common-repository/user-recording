@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "lib": ["dom","es5"]
+  },
+  "include": [
+    "../Shared/*.ts",
+    "../Typing/*.ts"
+  ],"exclude": [
+    "node_modules/*.ts"
+  ]
+}
